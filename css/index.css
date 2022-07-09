@@ -152,3 +152,11 @@ header{
     font-weight:bold;
     cursor:pointer;
 }
+.glowing{
+    box-shadow: 0 0 1vw .1vw #FFF;
+    animation: glow ease-in-out 1s infinite alternate;
+}
+@keyframes glow {
+  0%   {box-shadow: 0 0 0vw 0vw #FFF;}
+  100%  {box-shadow: 0 0 1vw .05vw #FFF;}
+}
