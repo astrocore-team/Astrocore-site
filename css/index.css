@@ -25,6 +25,7 @@ body{
     height:300vh;
     scroll-behavior: smooth;
 }
+
 .temp-aligner-1{
     position: absolute;
     top:0px;
@@ -159,4 +160,17 @@ header{
 @keyframes glow {
   0%   {box-shadow: 0 0 0vw 0vw #FFF;}
   100%  {box-shadow: 0 0 1vw .05vw #FFF;}
+}
+.testamonies{
+    position:absolute;
+    top:190vh;
+    left:0px;
+    width:100vw;
+    height:50vh;
+    background-color: #9F08FC;
+    transition: opacity 1s ease-in-out;
+    opacity:0;
+}
+.testamonies.change{
+    opacity:1;
 }
