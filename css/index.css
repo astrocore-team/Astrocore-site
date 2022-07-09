@@ -121,6 +121,7 @@ header{
     }
     to { opacity: 1 }
 }
+
 .big-text-text{
     font-size: 10vh;
     font-style: normal;
@@ -182,6 +183,37 @@ header{
   0%   {box-shadow: 0 0 0vw 0vw #FFF;}
   100%  {box-shadow: 0 0 1vw .05vw #FFF;}
 }
+
+.title{
+    font-size: 10vh;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10vh;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 10vw;
+    width: 30vw;
+    height: 26vh;
+    opacity:0;
+}
+.title-wrapper{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 95vh;
+}
+
+
+
+
+
+
+
+
+
+
+
 .testamonies{
     position:absolute;
     top:190vh;
