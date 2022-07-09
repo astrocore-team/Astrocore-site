@@ -1,7 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* Works on Firefox */
+* {
+    scrollbar-width: .4vw;
+    scrollbar-color: #9F08FC rgba(219, 219, 220, 0);
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: .4vw;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgba(219, 219, 220, 0);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #9F08FC;
+    border-radius: .4vw;
+  }
 body{
     background-color:#18141c;
     font-family: 'Inter', sans-serif;
+    overflow-x:hidden;
+    height:300vh;
+    scroll-behavior: smooth;
 }
 .temp-aligner-1{
     position: absolute;
