@@ -105,6 +105,31 @@ header{
     cursor:pointer;
     user-select:none;
 }
+.cssanimation, .cssanimation span {
+    animation-duration: 1.6s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(15%);
+    }
+    to { opacity: 1 }
+}
+.big-text-text{
+    font-size: 10vh;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFF0FE;
+}
 .big-text{
     position: absolute;
     width: 80vw;
@@ -113,13 +138,6 @@ header{
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     top: 18vh;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10vh;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFF0FE;
 }
 .small-text-wrapper{
     position: absolute;
@@ -139,12 +157,14 @@ header{
 }
 .main-button{
     position: absolute;
-    width: 24vw;
-    height: 10vh;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     top: 72vh;
+}
+.main-button-button{
+    width: 24vw;
+    height: 10vh;
     background: rgba(159, 8, 252, 0.95);
     border-radius: 5px;
     color:white;
