@@ -76,7 +76,8 @@ header{
     cursor:pointer;
 }
 .nav-element.selected{
-    color:#9F08FC !important;
+    color:#CE80FF !important;
+    font-size: 3.5vh;
 }
 .bar1, .bar2, .bar3 {
     width: 5vh;
@@ -168,7 +169,8 @@ header{
     width: 24vw;
     height: 10vh;
     background: rgba(159, 8, 252, 0.95);
-    border-radius: 5px;
+    border-radius: 1vh;
+    border:none;
     color:white;
     font-family: 'Inter', sans-serif;
     font-size:4vh;
@@ -216,11 +218,11 @@ header{
 
 .testamonies{
     position:absolute;
-    top:190vh;
+    top:210vh;
     left:0px;
     width:100vw;
     height:50vh;
-    background-color: #9F08FC;
+    background-color: #FFF0FE;
     transition: opacity 1s ease-in-out;
     opacity:0;
 }
