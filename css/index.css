@@ -68,6 +68,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap:5vw;
 }
 .nav-element{
     color: white;
