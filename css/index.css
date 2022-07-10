@@ -106,6 +106,7 @@ header{
     right:2.5vw;
     cursor:pointer;
     user-select:none;
+    display:none;
 }
 .cssanimation, .cssanimation span {
     animation-duration: 1.6s;
