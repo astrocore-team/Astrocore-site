@@ -19,7 +19,7 @@
     border-radius: .4vw;
   }
 body{
-    background-color:#18141c;
+    background-color:red;
     font-family: 'Inter', sans-serif;
     overflow-x:hidden;
     height:300vh;
@@ -128,7 +128,7 @@ header{
     font-size: 10vh;
     font-style: normal;
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 10vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -152,7 +152,7 @@ header{
     transform: translateX(-50%);
     display:flex;
     top: 42vh;
-    font-size: 2.5vw;
+    font-size: 5vh;
     text-align:center;
     color: rgba(219, 219, 220, 0.83);
 }
