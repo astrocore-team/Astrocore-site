@@ -24,6 +24,9 @@ body{
     overflow-x:hidden;
     height:300vh;
     scroll-behavior: smooth;
+    width:100vw;
+    margin:0;
+    padding:0;
 }
 .background-thing{
     position:fixed;
@@ -32,6 +35,22 @@ body{
     width:100vw;
     height:100vh;
     opacity:.6;
+}
+.swirl{
+    position:absolute;
+    top:-55vh;
+    width:50vw;
+    right:-25vw;
+    transform: rotate(-50deg);
+    opacity:.3;
+}
+.swirl2{
+    position:absolute;
+    top:-25vh;
+    width:50vw;
+    left:-25vw;
+    transform: rotate(130deg);
+    opacity:.3;
 }
 .temp-aligner-1{
     position: absolute;
@@ -185,6 +204,15 @@ header{
     font-weight:bold;
     cursor:pointer;
 }
+.hr-wrapper{
+    position:absolute;
+    height:5vh;
+    width:54px;
+    top:90vh;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
 .glowing{
     box-shadow: 0 0 1vw .1vw #FFF;
     animation: glow ease-in-out 1s infinite alternate;
@@ -235,8 +263,8 @@ header{
 }
 .news-image{
     position:relative;
-    width:5vw;
-    height:5vw;
+    width:10vh;
+    height:10vh;
     border-radius: 50vw;
     top:2vh;
     left: 50%;
