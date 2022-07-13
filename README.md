@@ -1,2 +1,2 @@
 # Astrocore-site
-The repository for the new Astrocore website
+The repository for the new Astrocore website.
