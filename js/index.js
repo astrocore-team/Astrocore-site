@@ -16,6 +16,8 @@ window.addEventListener("scroll", function() {
     if (window.scrollY > pageHeight*1) {
         this.document.getElementById('staff-title').classList.add("fadeInBottom");
         this.document.getElementById('staff-title').classList.add("cssanimation");
+        this.document.getElementsByClassName('staff-image-wrapper').classList.add("cssanimation");
+        this.document.getElementsByClassName('staff-image-wrapper').classList.add("fadeInBottom");
     }
   });
 
