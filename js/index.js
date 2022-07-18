@@ -11,6 +11,13 @@ window.addEventListener("scroll", function() {
         this.document.getElementById('news-element3').classList.add("cssanimation");
     }
   });
+  window.addEventListener("scroll", function() {
+    let pageHeight = window.innerHeight;
+    if (window.scrollY > pageHeight*1) {
+        this.document.getElementById('staff-title').classList.add("fadeInBottom");
+        this.document.getElementById('staff-title').classList.add("cssanimation");
+    }
+  });
 
   let count = 1;
   let oldValue = 0
