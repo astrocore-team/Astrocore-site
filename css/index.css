@@ -318,6 +318,10 @@ header{
     -webkit-user-select: none;
     user-select: none;
     opacity:0;
+    cursor:pointer;
+}
+.staff-image-wrapper:hover{
+    background-color:red;
 }
 .staff-image{
     border-radius: 50%;
@@ -328,4 +332,19 @@ header{
     -webkit-user-select: none;
     user-select: none;
     pointer-events: none;
+}
+.staff-image-mini-wrapper{
+    position:absolute;
+    bottom:2px;
+    right:2px;
+    width:80px;
+    height:35px;
+    display:flex;
+    justify-content: right;
+    gap:2px;
+}
+.staff-image-mini{
+    border-radius: 50%;
+    width:35px;
+    height:35px;
 }

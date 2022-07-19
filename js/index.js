@@ -44,6 +44,14 @@ window.addEventListener("scroll", function() {
     }
   });
 
+  function bio(number){
+    alert(number);
+  }
+
+
+
+
+
   let count = 1;
   let oldValue = 0
 let newValue = 0
