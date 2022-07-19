@@ -13,7 +13,7 @@ window.addEventListener("scroll", function() {
   });
   window.addEventListener("scroll", function() {
     let pageHeight = window.innerHeight;
-    if (window.scrollY > pageHeight*1.3) {
+    if (window.scrollY > pageHeight*1.1) {
         this.document.getElementById('staff-title').classList.add("fadeInBottom");
         this.document.getElementById('staff-title').classList.add("cssanimation");
         this.document.getElementById('staff1').classList.add("cssanimation");

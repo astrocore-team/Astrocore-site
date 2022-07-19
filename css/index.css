@@ -293,17 +293,12 @@ header{
     text-align:center;
     color: rgba(219, 219, 220, 0.83);
 }
-.hr-wrapper2{
-    position:relative;
-    height:5vh;
-    width:54px;
-}
 .staff-title{
     position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    top:15vh;
+    top:10vh;
 }
 .staff-wrapper{
     margin-top:10vh;
