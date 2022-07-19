@@ -22,7 +22,6 @@ body{
     background-color:#18141c;
     font-family: 'Inter', sans-serif;
     overflow-x: clip;
-    height:300vh;
     scroll-behavior: smooth;
     width:100vw;
     margin:0;
@@ -136,6 +135,9 @@ header{
     user-select:none;
     display:none;
 }
+.shapes{
+    display:block;
+}
 .cssanimation, .cssanimation span {
     animation-duration: 1.6s;
     animation-fill-mode: both;
@@ -195,7 +197,7 @@ header{
     top: 72vh;
 }
 .main-button-button{
-    width: 24vw;
+    width: 300px;
     height: 10vh;
     background: rgba(159, 8, 252, 0.95);
     border-radius: 1vh;
@@ -231,7 +233,6 @@ header{
     font-size: 8vh;
     text-align: center;
     color: #FFFFFF;
-    line-height: 10vw;
     width: 80vw;
     height: 26vh;
     opacity:0;
@@ -350,3 +351,97 @@ header{
     width:35px;
     height:35px;
 }
+@media only screen and (max-width: 950px) {
+    .shapes {
+      display:none;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .big-text-text {
+      font-size: 9vh;
+    }
+  }
+  @media only screen and (max-width: 665px) {
+    .big-text-text {
+      font-size: 8.5vh;
+    }
+  }
+  @media only screen and (max-width: 625px) {
+    .big-text-text {
+      font-size: 8.2vh;
+    }
+    .small-text-wrapper{
+        top:39vh;
+    }
+  }
+  @media only screen and (max-width: 605px) {
+    .big-text-text {
+      font-size: 8vh;
+    }
+  }
+  @media only screen and (max-width: 590px) {
+    .big-text-text {
+      font-size: 7.6vh;
+    }
+  }
+  @media only screen and (max-width: 560px) {
+    .big-text-text {
+      font-size: 7.2vh;
+    }
+    .small-text-wrapper{
+        top:36vh;
+        font-size:4vh;
+    }
+    .nav-wrapper{
+        display:none;
+    }
+    .menu-container{
+        display:block;
+    }
+    .main-button-button{
+        border-radius:25px;
+    }
+  }
+  @media only screen and (max-width: 530px) {
+    .big-text-text {
+      font-size: 7vh;
+    }
+  }
+  @media only screen and (max-width: 515px) {
+    .big-text-text {
+      font-size: 6.6vh;
+    }
+  }
+  @media only screen and (max-width: 485px) {
+    .small-text-wrapper{
+        top:40vh;
+        font-size:3.8vh;
+    }
+  }
+  @media only screen and (max-width: 430px) {
+    .big-text-text {
+        font-size: 6.2vh;
+      }
+  }
+  @media only screen and (max-width: 400px) {
+    .big-text-text {
+        font-size: 5.8vh;
+      }
+  }
+  @media only screen and (max-width: 376px) {
+    .big-text-text {
+        font-size: 5.5vh;
+      }
+  }
+  @media only screen and (max-width: 357px) {
+    .big-text-text {
+        font-size: 5.3vh;
+    }
+    .big-text{
+        top:16vh;
+    }
+    .main-button-button{
+        width:200px;
+        border-radius: 5px;
+    }
+  }
