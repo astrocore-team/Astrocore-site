@@ -319,9 +319,11 @@ header{
     user-select: none;
     opacity:0;
     cursor:pointer;
+    box-shadow: 0 0 10px .01px #9F08FC;
+    transition: box-shadow .2s;
 }
 .staff-image-wrapper:hover{
-    background-color:red;
+    box-shadow: 0 0 50px .01px #9F08FC;
 }
 .staff-image{
     border-radius: 50%;

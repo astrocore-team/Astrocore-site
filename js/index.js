@@ -45,7 +45,7 @@ window.addEventListener("scroll", function() {
   });
 
   function bio(number){
-    alert(number);
+    var circle = document.getElementsByClassName("staff-image-wrapper")[number];
   }
 
 
@@ -54,7 +54,7 @@ window.addEventListener("scroll", function() {
 
   let count = 1;
   let oldValue = 0
-let newValue = 0
+  let newValue = 0
   window.addEventListener("scroll", function() {
     newValue = window.pageYOffset;
     if (oldValue < newValue) {
