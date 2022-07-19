@@ -294,22 +294,19 @@ header{
     color: rgba(219, 219, 220, 0.83);
 }
 .hr-wrapper2{
-    position:absolute;
+    position:relative;
     height:5vh;
     width:54px;
-    top:90vh;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
 }
 .staff-title{
     position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    top:5vh;
+    top:15vh;
 }
 .staff-wrapper{
+    margin-top:10vh;
     width:80vw;
     display: flex;
     gap:60px;
@@ -322,6 +319,10 @@ header{
     width:100px;
     height:100px;
     border-radius: 50%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    opacity:0;
 }
 .staff-image{
     border-radius: 50%;

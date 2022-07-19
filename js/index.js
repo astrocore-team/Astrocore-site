@@ -13,11 +13,34 @@ window.addEventListener("scroll", function() {
   });
   window.addEventListener("scroll", function() {
     let pageHeight = window.innerHeight;
-    if (window.scrollY > pageHeight*1) {
+    if (window.scrollY > pageHeight*1.3) {
         this.document.getElementById('staff-title').classList.add("fadeInBottom");
         this.document.getElementById('staff-title').classList.add("cssanimation");
-        this.document.getElementsByClassName('staff-image-wrapper').classList.add("cssanimation");
-        this.document.getElementsByClassName('staff-image-wrapper').classList.add("fadeInBottom");
+        this.document.getElementById('staff1').classList.add("cssanimation");
+        this.document.getElementById('staff1').classList.add("fadeInBottom");
+        this.document.getElementById('staff2').classList.add("cssanimation");
+        this.document.getElementById('staff2').classList.add("fadeInBottom");
+        this.document.getElementById('staff3').classList.add("cssanimation");
+        this.document.getElementById('staff3').classList.add("fadeInBottom");
+        this.document.getElementById('staff4').classList.add("cssanimation");
+        this.document.getElementById('staff4').classList.add("fadeInBottom");
+        this.document.getElementById('staff5').classList.add("cssanimation");
+        this.document.getElementById('staff5').classList.add("fadeInBottom");
+        this.document.getElementById('staff6').classList.add("cssanimation");
+        this.document.getElementById('staff6').classList.add("fadeInBottom");
+        this.document.getElementById('staff7').classList.add("cssanimation");
+        this.document.getElementById('staff7').classList.add("fadeInBottom");
+        this.document.getElementById('staff8').classList.add("cssanimation");
+        this.document.getElementById('staff8').classList.add("fadeInBottom");
+        this.document.getElementById('staff9').classList.add("cssanimation");
+        this.document.getElementById('staff9').classList.add("fadeInBottom");
+        this.document.getElementById('staff10').classList.add("cssanimation");
+        this.document.getElementById('staff10').classList.add("fadeInBottom");
+        this.document.getElementById('staff11').classList.add("cssanimation");
+        this.document.getElementById('staff11').classList.add("fadeInBottom");
+        this.document.getElementById('staff12').classList.add("cssanimation");
+        this.document.getElementById('staff12').classList.add("fadeInBottom");
+
     }
   });
 
