@@ -79,7 +79,7 @@ header{
     height:15vh;
 }
 .logo{
-    width:4vw;
+    width:60px;
     position:absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -421,7 +421,7 @@ header{
   }
   @media only screen and (max-width: 430px) {
     .big-text-text {
-        font-size: 5vh;
+        font-size: 8.5vw;
       }
       .small-text-wrapper{
         top:36vh;
@@ -429,17 +429,17 @@ header{
   }
   @media only screen and (max-width: 400px) {
     .big-text-text {
-        font-size:4.8vh;
+        font-size:8.8vw;
       }
   }
   @media only screen and (max-width: 382px) {
     .big-text-text {
-        font-size: 4.5vh;
+        font-size: 8.5vw;
       }
   }
   @media only screen and (max-width: 357px) {
     .big-text-text {
-        font-size: 4.3vh;
+        font-size: 8.3vw;
     }
     .big-text{
         top:16vh;
