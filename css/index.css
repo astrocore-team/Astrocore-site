@@ -21,7 +21,7 @@
 body{
     background-color:#18141c;
     font-family: 'Inter', sans-serif;
-    overflow-x: clip;
+    overflow-x:hidden;
     scroll-behavior: smooth;
     height:350vh;
     width:100vw;
@@ -306,6 +306,7 @@ header{
     margin-top:5vh;
     width:80vw;
     display: flex;
+    flex:auto;
     gap:60px;
     justify-content: center;
     flex-wrap: wrap;
@@ -322,7 +323,7 @@ header{
     opacity:0;
     cursor:pointer;
     box-shadow: 0 0 10px .01px #9F08FC;
-    transition: box-shadow .2s;
+    transition: box-shadow .2s, height 1s;
 }
 .staff-image-wrapper:hover{
     box-shadow: 0 0 50px .01px #9F08FC;
@@ -352,6 +353,95 @@ header{
     width:35px;
     height:35px;
 }
+
+
+
+
+
+
+.bio-wrapper{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+  background-color:rgba(24, 20, 28, 0);
+  visibility: hidden;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color .4s;
+}
+.bio-wrapper-active{
+  transition: background-color .4s;
+  visibility: visible;
+  background-color:rgba(24, 20, 28, .8);
+}
+.bio-card{
+  opacity:0;
+  width:300px;
+  height:520px;
+  border-radius: 5px;
+  background-color: #CE80FF;
+  transition: opacity 1s;
+  box-shadow: 0 0 50px .01px #9F08FC;
+}
+.bio-card-active{
+  opacity:1;
+  transition: opacity 1s;
+}
+.bio-image{
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 50%;
+  margin-top:15px;
+  width:95px;
+  height:95px;
+}
+.bio-close-button{
+  margin:0;
+  padding:0;
+  background:none;
+  width:100px;
+  height:40px;
+  border-radius: 20px;
+  color:#18141c;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom:10%;
+  text-align: center;
+  line-height: 100%;
+  font-size:20px;
+  cursor:pointer;
+  transition: bottom .4s, background-color .4s, width .4s, color .4s;
+}
+.bio-close-button:hover{
+  bottom:11%;
+  background-color:rgba(24, 20, 28, 1);
+  color:white;
+  width:200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 950px) {
     .shapes {
       display:none;
