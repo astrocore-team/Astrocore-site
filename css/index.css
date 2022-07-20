@@ -408,11 +408,11 @@ header{
   height:40px;
   border-radius: 20px;
   color:#18141c;
-  position: relative;
+  position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  bottom:10%;
+  bottom:12%;
   text-align: center;
   line-height: 100%;
   font-size:20px;
@@ -420,7 +420,7 @@ header{
   transition: bottom .4s, background-color .4s, width .4s, color .4s;
 }
 .bio-close-button:hover{
-  bottom:11%;
+  bottom:13%;
   background-color:rgba(24, 20, 28, 1);
   color:white;
   width:200px;

@@ -95,17 +95,62 @@ function bioClose(){
   enableScroll();
 }
 
-fetch("json/test.json")
-  .then(response => response.json())
-  .then(json => console.log(json));
 
 
   window.addEventListener('click', function(e){
     if(document.getElementById('staff1').contains(e.target)){
-
+      disableScroll()
+      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
+      this.document.getElementById('bio-card').classList.add("bio-card-active"); 
+      this.document.body.style.overflow = 'hidden';
+      // ------------- ENTER INFO HERE  -------------
+      fetch("http://astrocore.net/json/test.json")
+        .then(response => response.json())
+        .then(json => {
+          console.log(json[3]);
+          var name = json[1].name;
+          var image = json[1].image;
+          var text = json[1].text;
+          var pos1 = json[1].pos1;
+          var pos2 = json[1].pos2;
+          var pos3 = json[1].pos3;
+          var pos4 = json[1].pos4;
+          this.document.getElementById('bio-image').src=image;
+          this.document.getElementById('bio-name').innerHTML = name;
+          this.document.getElementById('bio-text').innerHTML = text;
+          this.document.getElementById('bio-pos1').innerHTML = pos1;
+          this.document.getElementById('bio-pos2').innerHTML = pos2;
+          this.document.getElementById('bio-pos3').innerHTML = pos3;
+          this.document.getElementById('bio-pos4').innerHTML = pos4;
+        });
     }
     else if(document.getElementById('staff2').contains(e.target)){
-
+      disableScroll()
+      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
+      this.document.getElementById('bio-card').classList.add("bio-card-active"); 
+      this.document.body.style.overflow = 'hidden';
+      // ------------- ENTER INFO HERE  -------------
+      fetch("http://astrocore.net/json/test.json")
+        .then(response => response.json())
+        .then(json => {
+          console.log(json[2]);
+          var name = json[2].name;
+          var image = json[2].image;
+          var text = json[2].text;
+          var pos1 = json[2].pos1;
+          var pos2 = json[2].pos2;
+          var pos3 = json[2].pos3;
+          var pos4 = json[2].pos4;
+          this.document.getElementById('bio-image').src=image;
+          this.document.getElementById('bio-name').innerHTML = name;
+          this.document.getElementById('bio-text').innerHTML = text;
+          this.document.getElementById('bio-pos1').innerHTML = pos1;
+          this.document.getElementById('bio-pos2').innerHTML = pos2;
+          this.document.getElementById('bio-pos3').innerHTML = pos3;
+          this.document.getElementById('bio-pos4').innerHTML = pos4;
+        });
     }
     else if(document.getElementById('staff3').contains(e.target)){
       disableScroll()
@@ -114,40 +159,268 @@ fetch("json/test.json")
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
       // ------------- ENTER INFO HERE  -------------
-      this.document.getElementById('bio-image').src="assets/JSman225.png";
-      this.document.getElementById('bio-name').innerHTML = "JSman225";
-      this.document.getElementById('bio-text').innerHTML = "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.";
-      this.document.getElementById('bio-pos1').innerHTML = "- Senior Web Developer";
-      this.document.getElementById('bio-pos2').innerHTML = "- Senior Web Designer";
-      this.document.getElementById('bio-pos3').innerHTML = "- Senior Python Developer";
-      this.document.getElementById('bio-pos4').innerHTML = "";
+      fetch("http://astrocore.net/json/test.json")
+        .then(response => response.json())
+        .then(json => {
+          console.log(json[3]);
+          var name = json[3].name;
+          var image = json[3].image;
+          var text = json[3].text;
+          var pos1 = json[3].pos1;
+          var pos2 = json[3].pos2;
+          var pos3 = json[3].pos3;
+          var pos4 = json[3].pos4;
+          this.document.getElementById('bio-image').src=image;
+          this.document.getElementById('bio-name').innerHTML = name;
+          this.document.getElementById('bio-text').innerHTML = text;
+          this.document.getElementById('bio-pos1').innerHTML = pos1;
+          this.document.getElementById('bio-pos2').innerHTML = pos2;
+          this.document.getElementById('bio-pos3').innerHTML = pos3;
+          this.document.getElementById('bio-pos4').innerHTML = pos4;
+        });
     }
     else if(document.getElementById('staff4').contains(e.target)){
-
+      disableScroll()
+      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
+      this.document.getElementById('bio-card').classList.add("bio-card-active"); 
+      this.document.body.style.overflow = 'hidden';
+      // ------------- ENTER INFO HERE  -------------
+      fetch("http://astrocore.net/json/test.json")
+        .then(response => response.json())
+        .then(json => {
+          console.log(json[4]);
+          var name = json[4].name;
+          var image = json[4].image;
+          var text = json[4].text;
+          var pos1 = json[4].pos1;
+          var pos2 = json[4].pos2;
+          var pos3 = json[4].pos3;
+          var pos4 = json[4].pos4;
+          this.document.getElementById('bio-image').src=image;
+          this.document.getElementById('bio-name').innerHTML = name;
+          this.document.getElementById('bio-text').innerHTML = text;
+          this.document.getElementById('bio-pos1').innerHTML = pos1;
+          this.document.getElementById('bio-pos2').innerHTML = pos2;
+          this.document.getElementById('bio-pos3').innerHTML = pos3;
+          this.document.getElementById('bio-pos4').innerHTML = pos4;
+        });
     }
     else if(document.getElementById('staff5').contains(e.target)){
-
+      disableScroll()
+      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
+      this.document.getElementById('bio-card').classList.add("bio-card-active"); 
+      this.document.body.style.overflow = 'hidden';
+      // ------------- ENTER INFO HERE  -------------
+      fetch("http://astrocore.net/json/test.json")
+        .then(response => response.json())
+        .then(json => {
+          console.log(json[5]);
+          var name = json[5].name;
+          var image = json[5].image;
+          var text = json[5].text;
+          var pos1 = json[5].pos1;
+          var pos2 = json[5].pos2;
+          var pos3 = json[5].pos3;
+          var pos4 = json[5].pos4;
+          this.document.getElementById('bio-image').src=image;
+          this.document.getElementById('bio-name').innerHTML = name;
+          this.document.getElementById('bio-text').innerHTML = text;
+          this.document.getElementById('bio-pos1').innerHTML = pos1;
+          this.document.getElementById('bio-pos2').innerHTML = pos2;
+          this.document.getElementById('bio-pos3').innerHTML = pos3;
+          this.document.getElementById('bio-pos4').innerHTML = pos4;
+        });
     }
     else if(document.getElementById('staff6').contains(e.target)){
-
+      disableScroll()
+      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
+      this.document.getElementById('bio-card').classList.add("bio-card-active"); 
+      this.document.body.style.overflow = 'hidden';
+      // ------------- ENTER INFO HERE  -------------
+      fetch("http://astrocore.net/json/test.json")
+        .then(response => response.json())
+        .then(json => {
+          console.log(json[6]);
+          var name = json[6].name;
+          var image = json[6].image;
+          var text = json[6].text;
+          var pos1 = json[6].pos1;
+          var pos2 = json[6].pos2;
+          var pos3 = json[6].pos3;
+          var pos4 = json[6].pos4;
+          this.document.getElementById('bio-image').src=image;
+          this.document.getElementById('bio-name').innerHTML = name;
+          this.document.getElementById('bio-text').innerHTML = text;
+          this.document.getElementById('bio-pos1').innerHTML = pos1;
+          this.document.getElementById('bio-pos2').innerHTML = pos2;
+          this.document.getElementById('bio-pos3').innerHTML = pos3;
+          this.document.getElementById('bio-pos4').innerHTML = pos4;
+        });
     }
     else if(document.getElementById('staff7').contains(e.target)){
-
+      disableScroll()
+      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
+      this.document.getElementById('bio-card').classList.add("bio-card-active"); 
+      this.document.body.style.overflow = 'hidden';
+      // ------------- ENTER INFO HERE  -------------
+      fetch("http://astrocore.net/json/test.json")
+        .then(response => response.json())
+        .then(json => {
+          console.log(json[7]);
+          var name = json[7].name;
+          var image = json[7].image;
+          var text = json[7].text;
+          var pos1 = json[7].pos1;
+          var pos2 = json[7].pos2;
+          var pos3 = json[7].pos3;
+          var pos4 = json[7].pos4;
+          this.document.getElementById('bio-image').src=image;
+          this.document.getElementById('bio-name').innerHTML = name;
+          this.document.getElementById('bio-text').innerHTML = text;
+          this.document.getElementById('bio-pos1').innerHTML = pos1;
+          this.document.getElementById('bio-pos2').innerHTML = pos2;
+          this.document.getElementById('bio-pos3').innerHTML = pos3;
+          this.document.getElementById('bio-pos4').innerHTML = pos4;
+        });
     }
     else if(document.getElementById('staff8').contains(e.target)){
-
+      disableScroll()
+      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
+      this.document.getElementById('bio-card').classList.add("bio-card-active"); 
+      this.document.body.style.overflow = 'hidden';
+      // ------------- ENTER INFO HERE  -------------
+      fetch("http://astrocore.net/json/test.json")
+        .then(response => response.json())
+        .then(json => {
+          console.log(json[8]);
+          var name = json[8].name;
+          var image = json[8].image;
+          var text = json[8].text;
+          var pos1 = json[8].pos1;
+          var pos2 = json[8].pos2;
+          var pos3 = json[8].pos3;
+          var pos4 = json[8].pos4;
+          this.document.getElementById('bio-image').src=image;
+          this.document.getElementById('bio-name').innerHTML = name;
+          this.document.getElementById('bio-text').innerHTML = text;
+          this.document.getElementById('bio-pos1').innerHTML = pos1;
+          this.document.getElementById('bio-pos2').innerHTML = pos2;
+          this.document.getElementById('bio-pos3').innerHTML = pos3;
+          this.document.getElementById('bio-pos4').innerHTML = pos4;
+        });
     }
     else if(document.getElementById('staff9').contains(e.target)){
-
+      disableScroll()
+      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
+      this.document.getElementById('bio-card').classList.add("bio-card-active"); 
+      this.document.body.style.overflow = 'hidden';
+      // ------------- ENTER INFO HERE  -------------
+      fetch("http://astrocore.net/json/test.json")
+        .then(response => response.json())
+        .then(json => {
+          console.log(json[9]);
+          var name = json[9].name;
+          var image = json[9].image;
+          var text = json[9].text;
+          var pos1 = json[9].pos1;
+          var pos2 = json[9].pos2;
+          var pos3 = json[9].pos3;
+          var pos4 = json[9].pos4;
+          this.document.getElementById('bio-image').src=image;
+          this.document.getElementById('bio-name').innerHTML = name;
+          this.document.getElementById('bio-text').innerHTML = text;
+          this.document.getElementById('bio-pos1').innerHTML = pos1;
+          this.document.getElementById('bio-pos2').innerHTML = pos2;
+          this.document.getElementById('bio-pos3').innerHTML = pos3;
+          this.document.getElementById('bio-pos4').innerHTML = pos4;
+        });
     }
     else if(document.getElementById('staff10').contains(e.target)){
-
+      disableScroll()
+      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
+      this.document.getElementById('bio-card').classList.add("bio-card-active"); 
+      this.document.body.style.overflow = 'hidden';
+      // ------------- ENTER INFO HERE  -------------
+      fetch("http://astrocore.net/json/test.json")
+        .then(response => response.json())
+        .then(json => {
+          console.log(json[10]);
+          var name = json[10].name;
+          var image = json[10].image;
+          var text = json[10].text;
+          var pos1 = json[10].pos1;
+          var pos2 = json[10].pos2;
+          var pos3 = json[10].pos3;
+          var pos4 = json[10].pos4;
+          this.document.getElementById('bio-image').src=image;
+          this.document.getElementById('bio-name').innerHTML = name;
+          this.document.getElementById('bio-text').innerHTML = text;
+          this.document.getElementById('bio-pos1').innerHTML = pos1;
+          this.document.getElementById('bio-pos2').innerHTML = pos2;
+          this.document.getElementById('bio-pos3').innerHTML = pos3;
+          this.document.getElementById('bio-pos4').innerHTML = pos4;
+        });
     }
     else if(document.getElementById('staff11').contains(e.target)){
-
+      disableScroll()
+      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
+      this.document.getElementById('bio-card').classList.add("bio-card-active"); 
+      this.document.body.style.overflow = 'hidden';
+      // ------------- ENTER INFO HERE  -------------
+      fetch("http://astrocore.net/json/test.json")
+        .then(response => response.json())
+        .then(json => {
+          console.log(json[11]);
+          var name = json[11].name;
+          var image = json[11].image;
+          var text = json[11].text;
+          var pos1 = json[11].pos1;
+          var pos2 = json[11].pos2;
+          var pos3 = json[11].pos3;
+          var pos4 = json[11].pos4;
+          this.document.getElementById('bio-image').src=image;
+          this.document.getElementById('bio-name').innerHTML = name;
+          this.document.getElementById('bio-text').innerHTML = text;
+          this.document.getElementById('bio-pos1').innerHTML = pos1;
+          this.document.getElementById('bio-pos2').innerHTML = pos2;
+          this.document.getElementById('bio-pos3').innerHTML = pos3;
+          this.document.getElementById('bio-pos4').innerHTML = pos4;
+        });
     }
     else if(document.getElementById('staff12').contains(e.target)){
-
+      disableScroll()
+      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
+      this.document.getElementById('bio-card').classList.add("bio-card-active"); 
+      this.document.body.style.overflow = 'hidden';
+      // ------------- ENTER INFO HERE  -------------
+      fetch("http://astrocore.net/json/test.json")
+        .then(response => response.json())
+        .then(json => {
+          console.log(json[12]);
+          var name = json[12].name;
+          var image = json[12].image;
+          var text = json[12].text;
+          var pos1 = json[12].pos1;
+          var pos2 = json[12].pos2;
+          var pos3 = json[12].pos3;
+          var pos4 = json[12].pos4;
+          this.document.getElementById('bio-image').src=image;
+          this.document.getElementById('bio-name').innerHTML = name;
+          this.document.getElementById('bio-text').innerHTML = text;
+          this.document.getElementById('bio-pos1').innerHTML = pos1;
+          this.document.getElementById('bio-pos2').innerHTML = pos2;
+          this.document.getElementById('bio-pos3').innerHTML = pos3;
+          this.document.getElementById('bio-pos4').innerHTML = pos4;
+        });
     }
   });
 
