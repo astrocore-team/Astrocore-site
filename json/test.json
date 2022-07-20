@@ -1,13 +1,110 @@
-[
-    {
-        "1":{
-            "name": "Figi8cake",
-            "image": "assets/Figi8cake.png",
-            "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
-            "pos1": "- Owner",
-            "pos2": "- Python Developer",
-            "pos3": "- Game Developer",
-            "pos4": "- Web Developer"
-        }
+{   
+    "1":{
+        "name": "Figi8cake",
+        "image": "assets/Figi8cake.png",
+        "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
+        "pos1": "- Owner",
+        "pos2": "- Python Developer",
+        "pos3": "- Game Developer",
+        "pos4": "- Web Developer"
+    },
+    "2":{
+        "name": "Geosjobbydooo",
+        "image": "assets/css-logo.png",
+        "text": "Hey im Geo, im the Head manager here at Astrocore. I like Minecraft and Web Developement!. I Joined Astrocore in October 2021, i started programming around 2019 and i have loved every bit of it!",
+        "pos1": "- Head Manager",
+        "pos2": "- Web Developer",
+        "pos3": "- Minecraft Developer",
+        "pos4": ""
+    },
+    "3":{
+        "name": "JSman225",
+        "image": "assets/JSman225.png",
+        "text": "Hey, I am JSman225! I am professional web designer and full stack developer. I have been writing code for over 5 years now. My favorite languages are JS, CSS, HTML, and Python. Discord: JSman225#7721 | Github: https://github.com/JSman225",
+        "pos1": "- Senior Web Developer",
+        "pos2": "- Senior Web Designer",
+        "pos3": "- Senior Python Developer",
+        "pos4": "- Super Cool Guy 😎"
+    },
+    "4":{
+        "name": "Fuz",
+        "image": "assets/Fuz.png",
+        "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
+        "pos1": "- Web Developer",
+        "pos2": "- Game Developer",
+        "pos3": "",
+        "pos4": ""
+    },
+    "5":{
+        "name": "Ali",
+        "image": "assets/ali.png",
+        "text": "Ali is my discord name! I'm a developer programming language that I like and use the most is JavaScript. I've been programming for 3 years and have experience with many different programming languages including c++, js, python, and more! I mostly make discord bots in my free time! - __ali_king_#0001",
+        "pos1": "- Web Developer",
+        "pos2": "- Python Developer",
+        "pos3": "- Bot Developer",
+        "pos4": "- Minecraft Developer"
+    },
+    "6":{
+        "name": "Jim",
+        "image": "assets/Jim.png",
+        "text": "Hey there! My name is Jim and I am the lua scripter/Roblox dev of the Astrocore team! I own a personal team called 21 Studio and do a LOT of developing! I am 13 years old, and I live in Alabama. Twitter: @JimDevelopes | Instagram: @JimIsSuffering",
+        "pos1": "- Game Developer",
+        "pos2": "- Lua Developer",
+        "pos3": "- 3d Artist",
+        "pos4": ""
+    },
+    "7":{
+        "name": "Axure",
+        "image": "assets/Axure.png",
+        "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
+        "pos1": "- Web Developer",
+        "pos2": "- Bot Developer",
+        "pos3": "- Minecraft Developer",
+        "pos4": ""
+    },
+    "8":{
+        "name": "GlitchedBlue",
+        "image": "assets/GlitchedBlue.png",
+        "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
+        "pos1": "- Web Developer",
+        "pos2": "",
+        "pos3": "",
+        "pos4": ""
+    },
+    "9":{
+        "name": "Juhis",
+        "image": "assets/Juhis.png",
+        "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
+        "pos1": "- Web Developer",
+        "pos2": "- Python Developer",
+        "pos3": "- Bot Developer",
+        "pos4": ""
+    },
+    "10":{
+        "name": "KING",
+        "image": "assets/KING.png",
+        "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
+        "pos1": "- Senior Game Developer",
+        "pos2": "",
+        "pos3": "",
+        "pos4": ""
+    },
+    "11":{
+        "name": "Lemonjuicy",
+        "image": "assets/lemonjuicy.png",
+        "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
+        "pos1": "- Senior 3d Artist",
+        "pos2": "",
+        "pos3": "",
+        "pos4": ""
+    },
+    "12":{
+        "name": "ScottML2006",
+        "image": "assets/ScottML2006.png",
+        "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
+        "pos1": "- 3d Artist",
+        "pos2": "",
+        "pos3": "",
+        "pos4": ""
     }
-]
+}
