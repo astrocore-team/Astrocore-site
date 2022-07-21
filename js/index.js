@@ -98,7 +98,7 @@ function bioClose(){
   window.addEventListener('click', function(e){
     if(document.getElementById('staff1').contains(e.target)){
       disableScroll()
-      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      
       this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
@@ -125,7 +125,7 @@ function bioClose(){
     }
     else if(document.getElementById('staff2').contains(e.target)){
       disableScroll()
-      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      
       this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
@@ -152,7 +152,7 @@ function bioClose(){
     }
     else if(document.getElementById('staff3').contains(e.target)){
       disableScroll()
-      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      
       this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
@@ -179,7 +179,7 @@ function bioClose(){
     }
     else if(document.getElementById('staff4').contains(e.target)){
       disableScroll()
-      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      
       this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
@@ -206,7 +206,7 @@ function bioClose(){
     }
     else if(document.getElementById('staff5').contains(e.target)){
       disableScroll()
-      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      
       this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
@@ -233,7 +233,7 @@ function bioClose(){
     }
     else if(document.getElementById('staff6').contains(e.target)){
       disableScroll()
-      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      
       this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
@@ -260,7 +260,7 @@ function bioClose(){
     }
     else if(document.getElementById('staff7').contains(e.target)){
       disableScroll()
-      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      
       this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
@@ -287,7 +287,7 @@ function bioClose(){
     }
     else if(document.getElementById('staff8').contains(e.target)){
       disableScroll()
-      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      
       this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
@@ -314,7 +314,7 @@ function bioClose(){
     }
     else if(document.getElementById('staff10').contains(e.target)){
       disableScroll()
-      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      
       this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
@@ -341,7 +341,7 @@ function bioClose(){
     }
     else if(document.getElementById('staff11').contains(e.target)){
       disableScroll()
-      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      
       this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
@@ -368,7 +368,7 @@ function bioClose(){
     }
     else if(document.getElementById('staff12').contains(e.target)){
       disableScroll()
-      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
+      
       this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
