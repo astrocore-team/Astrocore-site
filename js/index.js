@@ -75,8 +75,6 @@ window.addEventListener("scroll", function() {
         this.document.getElementById('staff7').classList.add("fadeInBottom");
         this.document.getElementById('staff8').classList.add("cssanimation");
         this.document.getElementById('staff8').classList.add("fadeInBottom");
-        this.document.getElementById('staff9').classList.add("cssanimation");
-        this.document.getElementById('staff9').classList.add("fadeInBottom");
         this.document.getElementById('staff10').classList.add("cssanimation");
         this.document.getElementById('staff10').classList.add("fadeInBottom");
         this.document.getElementById('staff11').classList.add("cssanimation");
@@ -305,33 +303,6 @@ function bioClose(){
           var pos2 = json[8].pos2;
           var pos3 = json[8].pos3;
           var pos4 = json[8].pos4;
-          this.document.getElementById('bio-image').src=image;
-          this.document.getElementById('bio-name').innerHTML = name;
-          this.document.getElementById('bio-text').innerHTML = text;
-          this.document.getElementById('bio-pos1').innerHTML = pos1;
-          this.document.getElementById('bio-pos2').innerHTML = pos2;
-          this.document.getElementById('bio-pos3').innerHTML = pos3;
-          this.document.getElementById('bio-pos4').innerHTML = pos4;
-        });
-    }
-    else if(document.getElementById('staff9').contains(e.target)){
-      disableScroll()
-      let pageHeight = window.innerHeight; window.scrollTo({ top:pageHeight*1.9, behavior: 'smooth' });
-      this.document.getElementById('bio-wrapper').classList.add("bio-wrapper-active");
-      this.document.getElementById('bio-card').classList.add("bio-card-active"); 
-      this.document.body.style.overflow = 'hidden';
-      // ------------- ENTER INFO HERE  -------------
-      fetch("http://astrocore.net/json/test.json")
-        .then(response => response.json())
-        .then(json => {
-          console.log(json[9]);
-          var name = json[9].name;
-          var image = json[9].image;
-          var text = json[9].text;
-          var pos1 = json[9].pos1;
-          var pos2 = json[9].pos2;
-          var pos3 = json[9].pos3;
-          var pos4 = json[9].pos4;
           this.document.getElementById('bio-image').src=image;
           this.document.getElementById('bio-name').innerHTML = name;
           this.document.getElementById('bio-text').innerHTML = text;

@@ -71,15 +71,6 @@
         "pos3": "",
         "pos4": ""
     },
-    "9":{
-        "name": "Juhis",
-        "image": "assets/Juhis.png",
-        "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
-        "pos1": "- Web Developer",
-        "pos2": "- Python Developer",
-        "pos3": "- Bot Developer",
-        "pos4": ""
-    },
     "10":{
         "name": "KING",
         "image": "assets/KING.png",
