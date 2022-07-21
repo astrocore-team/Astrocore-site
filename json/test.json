@@ -15,7 +15,7 @@
         "pos1": "- Head Manager",
         "pos2": "- Web Developer",
         "pos3": "- Minecraft Developer",
-        "pos4": ""
+        "pos4": " "
     },
     "3":{
         "name": "JSman225",
@@ -32,8 +32,8 @@
         "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
         "pos1": "- Web Developer",
         "pos2": "- Game Developer",
-        "pos3": "",
-        "pos4": ""
+        "pos3": " ",
+        "pos4": " "
     },
     "5":{
         "name": "Ali",
@@ -51,7 +51,7 @@
         "pos1": "- Game Developer",
         "pos2": "- Lua Developer",
         "pos3": "- 3d Artist",
-        "pos4": ""
+        "pos4": " "
     },
     "7":{
         "name": "Axure",
@@ -60,42 +60,42 @@
         "pos1": "- Web Developer",
         "pos2": "- Senior Bot Developer",
         "pos3": "- Minecraft Developer",
-        "pos4": ""
+        "pos4": " "
     },
     "8":{
         "name": "GlitchedBlue",
         "image": "assets/GlitchedBlue.png",
         "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
         "pos1": "- Web Developer",
-        "pos2": "",
-        "pos3": "",
-        "pos4": ""
+        "pos2": " ",
+        "pos3": " ",
+        "pos4": " "
     },
     "10":{
         "name": "KING",
         "image": "assets/KING.png",
         "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
         "pos1": "- Senior Game Developer",
-        "pos2": "",
-        "pos3": "",
-        "pos4": ""
+        "pos2": " ",
+        "pos3": " ",
+        "pos4": " "
     },
     "11":{
         "name": "Lemonjuicy",
         "image": "assets/lemonjuicy.png",
         "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
         "pos1": "- Senior 3d Artist",
-        "pos2": "",
-        "pos3": "",
-        "pos4": ""
+        "pos2": " ",
+        "pos3": " ",
+        "pos4": " "
     },
     "12":{
         "name": "ScottML2006",
         "image": "assets/ScottML2006.png",
         "text": "This is a bio about the person. They can put a short about themselves paragraph here. It really should not be too long, but still long enough because I have given you all plent of space.",
         "pos1": "- 3d Artist",
-        "pos2": "",
-        "pos3": "",
-        "pos4": ""
+        "pos2": " ",
+        "pos3": " ",
+        "pos4": " "
     }
 }
