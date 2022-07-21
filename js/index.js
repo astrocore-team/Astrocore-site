@@ -87,7 +87,7 @@ window.addEventListener("scroll", function() {
 
 function bioClose(){
   this.document.getElementById('bio-wrapper').classList.remove("bio-wrapper-active");
-  this.document.getElementById('bio-card').classList.remove("bio-card-active"); 
+  this.document.getElementById('bio-card').classList.remove("bio-card-active");
   this.document.body.style.overflowY = 'scroll';
   this.document.body.style.overflowX = 'hidden';
   enableScroll();

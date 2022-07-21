@@ -362,15 +362,23 @@ header{
   height:100vh;
   background-color:rgba(24, 20, 28, 0);
   visibility: hidden;
+  transition: background-color .4s;
   display:flex;
   justify-content: center;
-  top:5%;
-  transition: background-color .4s;
+  align-items: center;
 }
 .bio-wrapper-active{
   transition: background-color .4s;
   visibility: visible;
   background-color:rgba(24, 20, 28, .8);
+}
+.bio-flex-wrapper{
+  height:90vh;
+  width:350px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
 }
 .bio-card{
   opacity:0;
@@ -404,16 +412,12 @@ header{
   height:40px;
   border-radius: 20px;
   color:white;
-  position: relative;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   text-align: center;
   line-height: 100%;
   font-size:20px;
   cursor:pointer;
   border: 2px solid white;
-  transition: bottom .4s, background-color .4s, width .4s, color .4s;
+  transition: background-color .4s, width .4s, color .4s;
 }
 .bio-close-button:hover{
   background-color:rgba(24, 20, 28, 1);
@@ -421,6 +425,34 @@ header{
   color:#CE80FF;
   width:200px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
