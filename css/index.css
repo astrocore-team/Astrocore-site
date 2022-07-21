@@ -369,7 +369,7 @@ header{
   visibility: hidden;
   display:flex;
   justify-content: center;
-  align-items: center;
+  top:5%;
   transition: background-color .4s;
 }
 .bio-wrapper-active{
@@ -382,10 +382,11 @@ header{
   width:300px;
   height:520px;
   border-radius: 5px;
-  background-color: #CE80FF;
+  background-color: #18141c;
   transition: opacity 1s;
-  box-shadow: 0 0 50px .01px #9F08FC;
+  box-shadow: 0 0 100px .05px #9F08FC;
 }
+/*#F9F0FF*/
 .bio-card-active{
   opacity:1;
   transition: opacity 1s;
@@ -407,22 +408,22 @@ header{
   width:100px;
   height:40px;
   border-radius: 20px;
-  color:#18141c;
-  position: absolute;
+  color:white;
+  position: relative;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  bottom:12%;
   text-align: center;
   line-height: 100%;
   font-size:20px;
   cursor:pointer;
+  border: 2px solid white;
   transition: bottom .4s, background-color .4s, width .4s, color .4s;
 }
 .bio-close-button:hover{
-  bottom:13%;
   background-color:rgba(24, 20, 28, 1);
-  color:white;
+  border: 2px solid #CE80FF;
+  color:#CE80FF;
   width:200px;
 }
 
