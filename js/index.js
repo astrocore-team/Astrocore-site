@@ -96,6 +96,9 @@ function bioClose(){
 
 
   window.addEventListener('click', function(e){
+    if (document.getElementById('bio-wrapper').contains(e.target) && document.getElementById('bio-card').contains(e.target) == false){
+      bioClose();
+    }
     if(document.getElementById('staff1').contains(e.target)){
       disableScroll()
       
