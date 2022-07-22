@@ -146,13 +146,18 @@ header{
   cursor:pointer;
   height:40px;
   width:100px;
-  color:#9F08FC;
+  color:#CE80FF;
   background: none;
   border:none;
   border-radius:2px;
-  font-size:18px;
+  font-size:19px;
+  transition:all .4s;
+  border: 2px solid #18141c;
 }
-
+.sign-in:hover{
+  color:white;
+  border-radius: 8px;
+}
 
 .sign-up{
   position:absolute;
@@ -165,9 +170,14 @@ header{
   width:100px;
   color:white;
   background-color:#9F08FC;
-  border:none;
+  border: 2px solid #9F08FC;
   border-radius:2px;
   font-size:18px;
+  transition:all .4s;
+}
+.sign-up:hover{
+  background-color:#18141c;
+  border-radius: 8px;
 }
 
 .sign-in-up-wrapper{
