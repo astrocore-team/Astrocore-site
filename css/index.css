@@ -153,6 +153,7 @@ header{
   font-size:19px;
   transition:all .4s;
   border: 2px solid #18141c;
+  white-space:nowrap;
 }
 .sign-in:hover{
   color:white;
@@ -174,6 +175,7 @@ header{
   border-radius:2px;
   font-size:18px;
   transition:all .4s;
+  white-space:nowrap;
 }
 .sign-up:hover{
   background-color:#18141c;
