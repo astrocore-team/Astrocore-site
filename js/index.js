@@ -13,9 +13,35 @@ function preventDefaultForScrollKeys(e) {
   }
 }
 
+
+
+
+
+
+
+
+function acceptCookies(){
+  document.getElementById('cookie-wrapper').classList.remove('cookie-wrapper-active');
+  localStorage.cookies = 'allow';
+}
+
+
+
+
+function denyCookies(){
+  document.getElementById('cookie-wrapper').classList.remove('cookie-wrapper-active');
+  localStorage.cookies = 'deny';
+}
+
 setTimeout(() => {
+  if(!localStorage.cookies){
   document.getElementById('cookie-wrapper').classList.add('cookie-wrapper-active');
+}
 }, "2000")
+
+
+
+
 
 // modern Chrome requires { passive: false } when adding event
 var supportsPassive = false;
