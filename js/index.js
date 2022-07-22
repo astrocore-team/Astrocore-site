@@ -92,8 +92,28 @@ function bioClose(){
   this.document.body.style.overflowX = 'hidden';
   enableScroll();
 }
-
-
+function signInSignUpClose(){
+  this.document.getElementById('sign-in-up-wrapper').classList.remove("sign-in-wrapper-active");
+  this.document.body.style.overflowY = 'scroll';
+  this.document.body.style.overflowX = 'hidden';
+  enableScroll();
+}
+function openSignIn(){
+  disableScroll()
+  this.document.getElementById('sign-in-up-wrapper').classList.add("sign-in-wrapper-active");
+  this.document.body.style.overflow = 'hidden';
+}
+function openSignUp(){
+  disableScroll()
+  this.document.getElementById('container').classList.add('right-panel-active');
+  this.document.getElementById('sign-in-up-wrapper').classList.add("sign-in-wrapper-active");
+  this.document.body.style.overflow = 'hidden';
+}
+window.addEventListener('click', function(e){
+  if (document.getElementById('sign-in-up-wrapper').contains(e.target) && document.getElementById('container').contains(e.target) == false){
+    signInSignUpClose();
+  }
+});
 
   window.addEventListener('click', function(e){
     if (document.getElementById('bio-wrapper').contains(e.target) && document.getElementById('bio-card').contains(e.target) == false){
@@ -431,3 +451,4 @@ function bioClose(){
     oldValue = newValue;
   });
 
+ 

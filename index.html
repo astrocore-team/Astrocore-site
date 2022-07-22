@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="js/menu.js"></script>
     <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/f9d40dbe97.js" crossorigin="anonymous"></script>
     <title>Astrocore</title>
 </head>
 <body>
@@ -34,7 +35,57 @@
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
+        <button onclick="openSignIn()" class="sign-in">Sign in</button>
+        <button onclick="openSignUp()" class="sign-up">Sign up</button>
     </header>
+    <div id="sign-in-up-wrapper" class="sign-in-up-wrapper">
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-discord"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social"><i class="fab fa-github fa-lg"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Sign in</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-discord"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social"><i class="fab fa-github fa-lg"></i></a>
+                </div>
+                <span>or use your account</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <a href="#">Forgot your password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Been Here Before?</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button onclick=" document.getElementById('container').classList.remove('right-panel-active');" class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>New Here?</h1>
+                    <p>Enter your personal details and start your journey with us</p>
+                    <button onclick="document.getElementById('container').classList.add('right-panel-active');" class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
     <img class="shapes" id="spin1" style="position:absolute; top:65vh; left:5vw; width:4vw;" src="assets\Ellipse 1.svg">
     <img class="shapes" id="spin2" style="position:absolute; top:50vh; right:5vw; width:4vw;" src="assets\Ellipse 2.svg">
     <img class="shapes" id="spin3" style="position:absolute; top:85vh; left:18vw; width:4vw;" src="assets\Polygon 1.svg">
@@ -49,6 +100,7 @@
         <hr class="glowing" style="position:absolute; left:3.5px; width:26.5px; transform: rotate(30deg); background-color:white; height:.5vh; border:none;">
         <hr class="glowing" style="position:absolute; right:3.5px; width:26.5px; transform: rotate(-30deg); background-color:white; height:.5vh; border:none;">
     </div>
+        <!-- news section -->
     <div class="title-wrapper"><h1 style="animation-delay: .2s;" id="what-we-do" class="title">Latest Projects</h1></div>
     <div class="news-wrapper">
         <div style="animation-delay: .6s;" id="news-element1" class="news-element">
@@ -66,7 +118,8 @@
             <h1 class="news-title">Core Bot</h1>
             <p class="news-text">This is a bunch of text that can be about totum, AstroSMP, or what ever else the article is about. It should be about this long and have lots and lots to say because I dont want to make another one of these somewhere else. I mean, it should be pretty long, you have plenty of space so feel free to type lots and lots about what every the article is about.<br><span style="cursor: pointer; color:#F0F0F0 !important;" onclick="window.location.replace('lol i duno')">Read More</span></p>
         </div>
-
+        <!-- contact section -->
+        <!-- staff section -->
         <div class="staff-title"><h1 style="animation-delay: .2s;" id="staff-title" class="title">Meet Our Team</h1></div>
         <div class="staff-wrapper">
             <div tabindex="0" style="animation-delay: .4s;" id="staff1" class="staff-image-wrapper">
