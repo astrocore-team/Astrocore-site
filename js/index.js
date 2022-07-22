@@ -13,6 +13,10 @@ function preventDefaultForScrollKeys(e) {
   }
 }
 
+setTimeout(() => {
+  document.getElementById('cookie-wrapper').classList.add('cookie-wrapper-active');
+}, "2000")
+
 // modern Chrome requires { passive: false } when adding event
 var supportsPassive = false;
 try {

@@ -36,6 +36,35 @@ body{
     height:100vh;
     opacity:.6;
 }
+.cookie-wrapper{
+  position:fixed;
+  right:-800px;
+  bottom:0;
+  width:800px;
+  height:100px;
+  background-color:#9F08FC;
+  border-top-left-radius: 20px;
+  z-index:9999999;
+  transition: all 2s;
+  color:white;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cookie-wrapper-active{
+  right:0;
+}
+.cookie-button{
+  border:none;
+  background-color: #18141c;
+  color:white;
+  height:25px;
+  width:200px;
+  white-space: nowrap;
+  border-radius: 8px;
+  font:inherit;
+  cursor: pointer;
+}
 .swirl{
     position:absolute;
     top:-55vh;
