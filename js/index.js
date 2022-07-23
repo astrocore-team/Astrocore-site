@@ -130,6 +130,7 @@ function signInSignUpClose(){
 }
 function openSignIn(){
   disableScroll()
+  this.document.getElementById('container').classList.remove('right-panel-active');
   this.document.getElementById('sign-in-up-wrapper').classList.add("sign-in-wrapper-active");
   this.document.body.style.overflow = 'hidden';
 }
