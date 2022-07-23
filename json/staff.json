@@ -24,7 +24,7 @@
         "pos1": "- Senior Web Developer",
         "pos2": "- Senior Web Designer",
         "pos3": "- Senior Python Developer",
-        "pos4": "- Super Cool Guy 😎"
+        "pos4": ""
     },
     "4":{
         "name": "Fuz",
@@ -47,7 +47,7 @@
     "6":{
         "name": "Jim",
         "image": "assets/Jim.png",
-        "text": "Hey there! My name is Jim and I am the lua scripter/Roblox dev of the Astrocore team! I own a personal team called 21 Studio and do a LOT of developing! I am 13 years old, and I live in Alabama. Twitter: @JimDevelopes | Instagram: @JimIsSuffering",
+        "text": "Hey there! My name is Jim and I am the lua scripter/Roblox dev of the Astrocore team! I am 13 years old, and I live in Alabama. Twitter: @JimDevelopes | Instagram: @JimIsSuffering",
         "pos1": "- Game Developer",
         "pos2": "- Lua Developer",
         "pos3": "- 3d Artist",
