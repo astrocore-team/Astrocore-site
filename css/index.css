@@ -622,6 +622,16 @@ color: inherit;
     text-align:center;
     color: rgba(219, 219, 220, 0.83);
 }
+.astrosite-wrapper{
+  background-color:blue;
+  width:100%;
+  height:500px;
+}
+
+
+
+
+
 .staff-title{
     position: relative;
     left: 50%;
