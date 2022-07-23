@@ -156,7 +156,7 @@ window.addEventListener('click', function(e){
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
       // ------------- ENTER INFO HERE  -------------
-      fetch("http://astrocore.net/json/staff.json")
+      fetch("https://astrocore.net/json/staff.json")
         .then(response => response.json())
         .then(json => {
           console.log(json[3]);
@@ -183,7 +183,7 @@ window.addEventListener('click', function(e){
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
       // ------------- ENTER INFO HERE  -------------
-      fetch("http://astrocore.net/json/staff.json")
+      fetch("https://astrocore.net/json/staff.json")
         .then(response => response.json())
         .then(json => {
           console.log(json[2]);
@@ -210,7 +210,7 @@ window.addEventListener('click', function(e){
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
       // ------------- ENTER INFO HERE  -------------
-      fetch("http://astrocore.net/json/staff.json")
+      fetch("https://astrocore.net/json/staff.json")
         .then(response => response.json())
         .then(json => {
           console.log(json[3]);
@@ -237,7 +237,7 @@ window.addEventListener('click', function(e){
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
       // ------------- ENTER INFO HERE  -------------
-      fetch("http://astrocore.net/json/staff.json")
+      fetch("https://astrocore.net/json/staff.json")
         .then(response => response.json())
         .then(json => {
           console.log(json[4]);
@@ -264,7 +264,7 @@ window.addEventListener('click', function(e){
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
       // ------------- ENTER INFO HERE  -------------
-      fetch("http://astrocore.net/json/staff.json")
+      fetch("https://astrocore.net/json/staff.json")
         .then(response => response.json())
         .then(json => {
           console.log(json[5]);
@@ -291,7 +291,7 @@ window.addEventListener('click', function(e){
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
       // ------------- ENTER INFO HERE  -------------
-      fetch("http://astrocore.net/json/staff.json")
+      fetch("https://astrocore.net/json/staff.json")
         .then(response => response.json())
         .then(json => {
           console.log(json[6]);
@@ -318,7 +318,7 @@ window.addEventListener('click', function(e){
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
       // ------------- ENTER INFO HERE  -------------
-      fetch("http://astrocore.net/json/staff.json")
+      fetch("https://astrocore.net/json/staff.json")
         .then(response => response.json())
         .then(json => {
           console.log(json[7]);
@@ -345,7 +345,7 @@ window.addEventListener('click', function(e){
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
       // ------------- ENTER INFO HERE  -------------
-      fetch("http://astrocore.net/json/staff.json")
+      fetch("https://astrocore.net/json/staff.json")
         .then(response => response.json())
         .then(json => {
           console.log(json[8]);
@@ -372,7 +372,7 @@ window.addEventListener('click', function(e){
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
       // ------------- ENTER INFO HERE  -------------
-      fetch("http://astrocore.net/json/staff.json")
+      fetch("https://astrocore.net/json/staff.json")
         .then(response => response.json())
         .then(json => {
           console.log(json[10]);
@@ -399,7 +399,7 @@ window.addEventListener('click', function(e){
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
       // ------------- ENTER INFO HERE  -------------
-      fetch("http://astrocore.net/json/staff.json")
+      fetch("https://astrocore.net/json/staff.json")
         .then(response => response.json())
         .then(json => {
           console.log(json[11]);
@@ -426,7 +426,7 @@ window.addEventListener('click', function(e){
       this.document.getElementById('bio-card').classList.add("bio-card-active"); 
       this.document.body.style.overflow = 'hidden';
       // ------------- ENTER INFO HERE  -------------
-      fetch("http://astrocore.net/json/staff.json")
+      fetch("https://astrocore.net/json/staff.json")
         .then(response => response.json())
         .then(json => {
           console.log(json[12]);

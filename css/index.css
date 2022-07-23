@@ -623,12 +623,14 @@ color: inherit;
     color: rgba(219, 219, 220, 0.83);
 }
 .astrosite-wrapper{
-  background-color:blue;
   width:100%;
-  height:500px;
+  height:800px;
+  display:flex;
+  flex-wrap: wrap;
 }
-
-
+.astrosite-image{
+  margin:0;
+}
 
 
 
