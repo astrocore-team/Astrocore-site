@@ -565,6 +565,37 @@ color: inherit;
     height: 26vh;
     opacity:0;
 }
+.subtitle{
+  font-size: 7vh;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5vh;
+  text-align: center;
+  color: #FFFFFF;
+  width: 80vw;
+  height: 26vh;
+  opacity:0;
+}
+.astrositestitle{
+  font-size: 10vh;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8vh;
+  text-align: center;
+  color: #FFFFFF;
+  width: 80vw;
+  opacity:0;
+}
+.astrositessubtitle{
+font-size: 7vh;
+font-style: normal;
+font-weight: bold;
+font-size: 5vh;
+text-align: center;
+color: #FFFFFF;
+width: 80vw;
+opacity:0;
+}
 .title-wrapper{
     position: absolute;
     left: 50%;
